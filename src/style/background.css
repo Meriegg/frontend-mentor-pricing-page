@@ -1,0 +1,21 @@
+.top,
+.bottom {
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+
+.top {
+  background-image: url("../../images/bg-top.svg");
+  height: 658px;
+  background-position: top right;
+  top: 0;
+}
+
+.bottom {
+  background-image: url("../../images/bg-bottom.svg");
+  height: 304px;
+  top: 80%;
+  background-position: bottom left;
+}

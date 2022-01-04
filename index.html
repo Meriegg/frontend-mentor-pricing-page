@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style/main.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <div class="top"></div>
+    <main>
+      <h1 class="main-title">Our pricing</h1>
+      <div class="switch-container">
+        <p class="switch-container-type">Anually</p>
+        <!-- From https://www.w3schools.com/howto/howto_css_switch.asp -->
+        <!-- Rounded switch -->
+        <label class="switch">
+          <input type="checkbox" id="switch-value" />
+          <span class="slider round"></span>
+        </label>
+        <p class="switch-container-type">Monthly</p>
+      </div>
+
+      <div class="prices-main-container">
+        <div class="price-item-normal">
+          <h1 class="price-item-title">Basic</h1>
+          <p class="price-item-price" id="item-price-display"></p>
+          <div class="price-item-info">
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">500gb storage</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">2 users allowed</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">send up to 3gb</p>
+            <div class="horizontal-line"></div>
+          </div>
+          <button class="price-item-button">LEARN MORE</button>
+        </div>
+
+        <div class="price-item-middle">
+          <h1 class="price-item-title">Professional</h1>
+          <p class="price-item-price" id="item-price-display"></p>
+          <div class="price-item-info">
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">1tb storage</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">5 users allowed</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">send up to 10gb</p>
+            <div class="horizontal-line"></div>
+          </div>
+          <button class="price-item-button">LEARN MORE</button>
+        </div>
+
+        <div class="price-item-normal">
+          <h1 class="price-item-title">Basic</h1>
+          <p class="price-item-price" id="item-price-display"></p>
+          <div class="price-item-info">
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">2tb storage</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">10 users allowed</p>
+            <div class="horizontal-line"></div>
+            <p class="price-item-info-item">send up to 20gb</p>
+            <div class="horizontal-line"></div>
+          </div>
+          <button class="price-item-button">LEARN MORE</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Meriegg">Meriegg</a>.
+    </div>
+
+    <div class="bottom"></div>
+    <script src="./src/scripts/main.js"></script>
+  </body>
+</html>
